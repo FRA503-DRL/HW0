@@ -1,0 +1,46 @@
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 297         |
+|    ep_rew_mean          | 9.84        |
+| time/                   |             |
+|    fps                  | 6391        |
+|    iterations           | 977         |
+|    time_elapsed         | 156         |
+|    total_timesteps      | 1000448     |
+| train/                  |             |
+|    approx_kl            | 0.007992304 |
+|    clip_fraction        | 0.0553      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.138      |
+|    explained_variance   | 0.506       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.00818    |
+|    n_updates            | 19520       |
+|    policy_gradient_loss | -0.005      |
+|    std                  | 0.278       |
+|    value_loss           | 0.000373    |
+
+
+
+
+
+
+ ep_len_mean          | 297    the avg duration of an episode before termination (should increase)
+ 
+ |    ep_rew_mean          | 9.84     the avg cumulative reward per episode
+ ()should increase
+ 
+ 
+  entropy_loss         | -0.138      | The randomness of the policy (higher values mean more exploration)
+  --> decresing agent becomes more deterministic
+  
+  
+ Look from graph
+ 
+std: The variability in action selection (higher values mean more exploration).
+
+value_loss
+
+entopy_loss
+
+ 
